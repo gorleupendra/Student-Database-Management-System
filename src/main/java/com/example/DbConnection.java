@@ -13,8 +13,8 @@ public class DbConnection {
 
             // --- Hardcoded Render Connection Details (FOR TESTING ONLY) ---
             String host =System.getenv("RENDER-DB-HOST"); // Render Internal Hostname
-            String dbName = "student_portal_db_4mg7";     // Render DB Name
-            String user = "upendra_gorle";             // Render DB User
+            String dbName = "neondb";     // Render DB Name
+            String user = "neondb_owner";             // Render DB User
             String pass =System.getenv("RENDER_DB_PASSWORD"); // Render DB Password (REMOVE BEFORE COMMIT/DEPLOY)
 
             // --- Input Validation (Less critical with hardcoded values, but good practice) ---
