@@ -272,13 +272,4 @@ body {
     }
 }
 
-/* Optional: Hide uni name on very small screens */
-@media (max-width: 380px) {
-    .university-name {
-        display: none; /* Hide uni name */
-    }
-    .logo-container {
-        /* Adjust if needed, maybe remove gap if name is hidden */
-        gap: 0;
-    }
-}
+
